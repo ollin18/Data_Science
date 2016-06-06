@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 
-img = Image.open("Yosemite.jpg").convert('L')
+img = Image.open("Image_route").convert('L')
 
 def la_suma(n):
     matriz = np.array(img)
